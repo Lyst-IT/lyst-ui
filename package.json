@@ -1,5 +1,5 @@
 {
-  "name": "lyst-ui",
+  "name": "@Lyst-IT/lyst-ui",
   "version": "0.0.1",
   "description": "common UI library for Lyst web projects",
   "scripts": {
@@ -36,5 +36,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Lyst-IT"
+  }
 }
