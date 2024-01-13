@@ -1,13 +1,9 @@
 {
   "name": "@Lyst-IT/lyst-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "common UI library for Lyst web projects",
   "scripts": {
     "rollup": "rollup -c"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lyst-IT/lyst-ui.git"
   },
   "author": "Lyst",
   "license": "ISC",

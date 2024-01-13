@@ -26,7 +26,7 @@ const pcss = postcss({
 export default [
   {
     input: "src/index.ts",
-    external: ["react-dom"],
+    external: ["react-dom", "@carbon/react"],
     output: [
       {
         file: packageJson.main,
