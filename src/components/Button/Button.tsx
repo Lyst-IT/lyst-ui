@@ -1,11 +1,8 @@
+import { Button } from "@carbon/react";
 import React from "react";
 
-interface ButtonProps {
-  label: string;
+function MyComponent() {
+  return <Button>Example usage</Button>;
 }
 
-const Button = (props: ButtonProps) => {
-  return <button type="button">{props.label}</button>;
-};
-
-export default Button;
+export default MyComponent;
