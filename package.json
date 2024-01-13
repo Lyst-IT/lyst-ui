@@ -1,6 +1,6 @@
 {
   "name": "@Lyst-IT/lyst-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "common UI library for Lyst web projects",
   "scripts": {
     "rollup": "rollup -c"
