@@ -1,0 +1,40 @@
+{
+  "name": "lyst-ui",
+  "version": "0.0.1",
+  "description": "common UI library for Lyst web projects",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyst-IT/lyst-ui.git"
+  },
+  "author": "Lyst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyst-IT/lyst-ui/issues"
+  },
+  "homepage": "https://github.com/Lyst-IT/lyst-ui#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.47",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.2.0",
+    "rollup": "^4.9.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
